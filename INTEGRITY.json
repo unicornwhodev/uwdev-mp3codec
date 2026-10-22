@@ -29,7 +29,7 @@
     },
     {
       "path": "docs/INTEGRATION.md",
-      "sha256": "5b73b847a4df327a79bd8531604bbff316fa29ad9638d09b5014a91b084c7eb3"
+      "sha256": "1b6fd4cabbea5f64040448a053ae97f43700b63c8e1ce08b47d97b9f62d52845"
     },
     {
       "path": "docs/LICENSE_AUDIT.md",
@@ -185,7 +185,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "797ca6dcbd3de55b7cd83a3b6210f60fe99b5a7c942a34c599518827fc2d4894"
+      "sha256": "1cc29e058933fc9c9c8ba0e68047a4c7693327373ec0c55320f0b51287f82f32"
     },
     {
       "path": "third-party-notices/Android-NDK-r27c-LLVM-NOTICE.txt",

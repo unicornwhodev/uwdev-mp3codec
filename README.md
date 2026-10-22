@@ -65,8 +65,10 @@ after `finish()` and output close succeed. `close()` discards an unfinished expo
 
 ## npm distribution
 
+Install the public release tarball directly; this installation requires no registry credentials.
+
 ```sh
-npm install uwdev-mp3codec@0.2.0
+npm install https://github.com/unicornwhodev/uwdev-mp3codec/releases/download/v0.2.0/uwdev-mp3codec-0.2.0.tgz
 npx uwdev-mp3codec verify
 npx uwdev-mp3codec maven-path
 npx uwdev-mp3codec aar-path
