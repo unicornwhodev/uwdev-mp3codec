@@ -8,8 +8,8 @@ VERSION=json.loads((ROOT/'package.json').read_text())['version']
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def integrity():
-    files=[ROOT/n for n in ('package.json','README.md','CHANGELOG.md','LICENSE','NOTICE.md','docs/INTEGRATION.md')]
-    for name in ('lib','bin','maven','third-party-notices'):
+    files=[ROOT/n for n in ('package.json','README.md','CHANGELOG.md','LICENSE','NOTICE.md')]
+    for name in ('lib','bin','maven','third-party-notices','docs','qualification'):
         files.extend(p for p in (ROOT/name).rglob('*') if p.is_file())
     result={'schema':'uwdev.artifact-integrity.v1','version':VERSION,'algorithm':'SHA-256',
             'files':[{'path':p.relative_to(ROOT).as_posix(),'sha256':sha(p)} for p in sorted(files)]}

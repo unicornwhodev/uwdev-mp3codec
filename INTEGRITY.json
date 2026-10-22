@@ -12,8 +12,44 @@
       "sha256": "18bc7bc10b7705b07f31fc534f7950e53cbb396e015d6fea3f4c90fc46b2a8ba"
     },
     {
+      "path": "docs/API.md",
+      "sha256": "8a2a427dfd258b8dd985b061e482d57ca326f8302a3c1cc154f99f36cf9ba08b"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "30728586eda3e3bd44909f05b16a7c7e610f1fd49455c3ff8074ce789ecd37c2"
+    },
+    {
+      "path": "docs/CODEC.md",
+      "sha256": "3aba733e9edd1e0d5ba0881be363ec8921baa2377cb0738a5cc58f0a850ce4fe"
+    },
+    {
+      "path": "docs/DSP_SOURCES.md",
+      "sha256": "7b9a21ee1df2c2591f098a405c1094479ab2ff5b97a4f0e6d1c37d510d695ea6"
+    },
+    {
       "path": "docs/INTEGRATION.md",
       "sha256": "5b73b847a4df327a79bd8531604bbff316fa29ad9638d09b5014a91b084c7eb3"
+    },
+    {
+      "path": "docs/LICENSE_AUDIT.md",
+      "sha256": "df06fc6a11e90ea6f03a2d2462ea9855bd382dc4b1f354a6ec1b1e68dcbe1db3"
+    },
+    {
+      "path": "docs/MIGRATION.md",
+      "sha256": "6764d8d7d0db868817a685296b4ec49d0f9a590659b4112991f4f9cbdaf26a57"
+    },
+    {
+      "path": "docs/MPEG_SOURCES.md",
+      "sha256": "474d54958a0e256edd8651bb2ba12e8123ffb6d897038c67d023a0accdc2eb6a"
+    },
+    {
+      "path": "docs/PEAK_PROTECTION.md",
+      "sha256": "7ad9a5d1d1923dc8e35e193fd78d2c064ffe26f21de8e3cacb545bd71cc105b7"
+    },
+    {
+      "path": "docs/QUALIFICATION.md",
+      "sha256": "af52cede4024d92bf1f3e4c60dc0948db4f63a80c98963d572780ff074eb8218"
     },
     {
       "path": "lib/index.cjs",
@@ -133,7 +169,19 @@
     },
     {
       "path": "package.json",
-      "sha256": "a716e1da131f6698f32dafb7a8a7248696c418036447adc9d9edcc0d0868d853"
+      "sha256": "ad6585e44fd39604019e119d5e159991f8f70610d24ae8b08946e86aab60cbff"
+    },
+    {
+      "path": "qualification/aar-verification.json",
+      "sha256": "e6bc307a84f501c6aa7b6f0b55a08e5064581d4ecae9038835fd65a7c3d443db"
+    },
+    {
+      "path": "qualification/production-source-sha256.json",
+      "sha256": "eb74bc156dff0a6fbf0e05e19ee10b1d60bdc7b91ba3bc6eef3bfb787eec52ce"
+    },
+    {
+      "path": "qualification/summary.json",
+      "sha256": "c2366a8dcb7849c2238b311dc78d85a1be6b30afee6eba9f0d082a3635e8222c"
     },
     {
       "path": "README.md",
