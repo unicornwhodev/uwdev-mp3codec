@@ -1,0 +1,75 @@
+{
+  "aar": "uwdev-mp3codec-0.2.0.aar",
+  "aar_bytes": 391524,
+  "native": [
+    {
+      "abi": "arm64-v8a",
+      "bytes": 324600,
+      "elf_load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "exports": [
+        "JNI_OnLoad"
+      ],
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ]
+    },
+    {
+      "abi": "armeabi-v7a",
+      "bytes": 202348,
+      "elf_load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "exports": [
+        "JNI_OnLoad"
+      ],
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ]
+    },
+    {
+      "abi": "x86_64",
+      "bytes": 323848,
+      "elf_load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "exports": [
+        "JNI_OnLoad"
+      ],
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ]
+    }
+  ],
+  "license_notices": [
+    "META-INF/uwdev-mp3codec/LICENSE",
+    "META-INF/uwdev-mp3codec/NOTICE.md",
+    "META-INF/uwdev-mp3codec/third-party-notices/Android-NDK-r27c-LLVM-NOTICE.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/BUILD-TOOLS-PROVENANCE.md",
+    "META-INF/uwdev-mp3codec/third-party-notices/Gradle-LICENSE.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/Gradle-NOTICE.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/KOTLIN-PROVENANCE.md",
+    "META-INF/uwdev-mp3codec/third-party-notices/Kotlin-2.2.21-COPYRIGHT.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/Kotlin-2.2.21-LICENSE.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/Kotlin-Boost-BSL-1.0.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/Kotlin-GWT-Apache-2.0.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/Kotlin-Guava-Apache-2.0.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/Kotlin-ThreeTenBP-BSD-3-Clause.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/minimp3-CC0.txt",
+    "META-INF/uwdev-mp3codec/third-party-notices/pl_mpeg-MIT.txt"
+  ],
+  "passed": true
+}

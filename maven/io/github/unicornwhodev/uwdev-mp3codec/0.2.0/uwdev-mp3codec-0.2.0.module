@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.unicornwhodev",
+    "module": "uwdev-mp3codec",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uwdev-mp3codec-0.2.0.aar",
+          "url": "uwdev-mp3codec-0.2.0.aar",
+          "size": 391524,
+          "sha512": "86ebb0021dae3a0f785976bdd6f26727e0aa8303c9c4d7503d2fed810e3e41b3b10b59a20a984870848014a2e8d7f7073fef3d957eeab91cafd0b3f7fcbbeecb",
+          "sha256": "dc78b3b583abc95542f3d37487b2749670f75d58edbc26d00af5c342d2f574e4",
+          "sha1": "05573a1bd1563e81e600d8779a728e86af3d8635",
+          "md5": "c7aad8981d548649c85b141ccc387229"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uwdev-mp3codec-0.2.0.aar",
+          "url": "uwdev-mp3codec-0.2.0.aar",
+          "size": 391524,
+          "sha512": "86ebb0021dae3a0f785976bdd6f26727e0aa8303c9c4d7503d2fed810e3e41b3b10b59a20a984870848014a2e8d7f7073fef3d957eeab91cafd0b3f7fcbbeecb",
+          "sha256": "dc78b3b583abc95542f3d37487b2749670f75d58edbc26d00af5c342d2f574e4",
+          "sha1": "05573a1bd1563e81e600d8779a728e86af3d8635",
+          "md5": "c7aad8981d548649c85b141ccc387229"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uwdev-mp3codec-0.2.0-sources.jar",
+          "url": "uwdev-mp3codec-0.2.0-sources.jar",
+          "size": 75536,
+          "sha512": "21d110093e759d6d2f84fb56649917d087934b0c6536d4ce9e912154fd72e0a632b4825d6ac859c33b4d96fc2c0f591b309c7682f34828df52119b4b4ec0ae49",
+          "sha256": "88440544b06b921afcfe6522da05c8d47c82594515b0a3f5068c2e3dc14f73f9",
+          "sha1": "87b763ad28efc16123182c7750d622f90a8e63c6",
+          "md5": "3547c7b0f8d843d5319dc83e326d080e"
+        }
+      ]
+    }
+  ]
+}

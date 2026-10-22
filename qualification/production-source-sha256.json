@@ -1,0 +1,88 @@
+{
+  "files": [
+    {
+      "path": "encoder-android/src/main/AndroidManifest.xml",
+      "sha256": "c8fe08b06e479efc7e3d00476fffe693a3e943e2b874b3c6a1ba5156fc180751"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/CMakeLists.txt",
+      "sha256": "104301d188a0add3388f33180305283b7fa2dacd2a1597a694b171be6758f52c"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/dsp.cpp",
+      "sha256": "73d42f3d3ac831f68aa63dc82b581d725710e5b64857bae5623a262f9b756633"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/dsp.hpp",
+      "sha256": "092a020be06762c7dd84f0e2494928567905b5ed6ff6a3102d9011758a0db608"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/encoder.cpp",
+      "sha256": "be876f93037a9fcb1ff968d6c49b899d8c25c0f014d58d4b497035345b651be7"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/encoder.hpp",
+      "sha256": "e1279dd369c7b96510d8fa13dc7fe97ad40d3f150a88cf4490747c4935e933ea"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/huffman_tables.hpp",
+      "sha256": "e367d50d7c529b4f4eab39764df3a4a6cacf1d852d3a3afe4249ec986af69c2f"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/mpeg.cpp",
+      "sha256": "6ed873553112f417381a977c718f1def2b2f6e8b759b43e280b015ade0798532"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/mpeg.hpp",
+      "sha256": "583d99476a1a17e2f996daa03688b948d3c2280fee5a636ea9d06c2169be3c29"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/resampler.cpp",
+      "sha256": "c818bda064af8e9559ab1c309351ca9b92d8bc26c6cee92070282c455fed6dbe"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/resampler.hpp",
+      "sha256": "d1ec6e043fab80a7be6bfe0a1be8671f9a7ab8aa1618d53665ebbb18df676619"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/synthesis.cpp",
+      "sha256": "587a90b7ee9cd48b778266713a5c309a00012e8ae0b8082423f9d387e98a3c80"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/synthesis.hpp",
+      "sha256": "7d85542dfbfadee93dfbaaf86349432b1d463b8072e7ca27cde299afe73b6447"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/codec/synthesis_window.hpp",
+      "sha256": "f047f7b0599346608c1fdce06d9d02ea67add144f08e34ab03cbcfe5e0695394"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/jni/encoder_jni.cpp",
+      "sha256": "1edc8ed0cb4ca022e2384a8511c7a931b367e64d17c185dc4ff6a4185338e0fe"
+    },
+    {
+      "path": "encoder-android/src/main/cpp/jni/exports.map",
+      "sha256": "1e20d2797cf1a6951017395c4622238e534bd84a7afb43a3c80ea80896b4d53c"
+    },
+    {
+      "path": "encoder-android/src/main/kotlin/dev/unicornwhodev/mp3codec/Mp3Encoder.kt",
+      "sha256": "e05ab525c50f3b885aec605140a851659ca4c9e4c4b1a9c2c18d9086632bb8dd"
+    },
+    {
+      "path": "encoder-android/src/main/kotlin/dev/unicornwhodev/mp3codec/Mp3EncoderConfig.kt",
+      "sha256": "63502a2a8c6096ebf499efccb3d0cc5c2c50fafdad34e100fc3efa708f018614"
+    },
+    {
+      "path": "encoder-android/src/main/kotlin/dev/unicornwhodev/mp3codec/Mp3EncoderException.kt",
+      "sha256": "29e0566e63c047746966ff650bb485eb609da18ab85d32012f6404411fa80bf5"
+    },
+    {
+      "path": "encoder-android/src/main/kotlin/dev/unicornwhodev/mp3codec/Mp3EncodingStats.kt",
+      "sha256": "9e75a0a28b6140d3faca0f99e1f6d365e74b59f1a0e8fb1876f8c6ed1873ed8e"
+    },
+    {
+      "path": "encoder-android/src/main/kotlin/dev/unicornwhodev/mp3codec/NativeBridge.kt",
+      "sha256": "86ec58d6fa2e67e501013d96b955c26f8923a0a96615ef73f5d3098178903f6d"
+    }
+  ]
+}

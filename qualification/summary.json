@@ -1,0 +1,74 @@
+{
+  "schema": "uwdev.public-qualification.v1",
+  "version": "0.2.0",
+  "status": "QUALIFICATION_COMPLETE",
+  "aar_sha256": "dc78b3b583abc95542f3d37487b2749670f75d58edbc26d00af5c342d2f574e4",
+  "license": "MIT",
+  "copyright": "2026 Unicorn Who Dev",
+  "technical": {
+    "device_corpus": {
+      "passed": 60,
+      "total": 60
+    },
+    "extended_mpeg_and_peaks": {
+      "passed": 528,
+      "total": 528
+    },
+    "native_audio": {
+      "passed": 264,
+      "total": 264
+    },
+    "native_edges": {
+      "passed": 204,
+      "total": 204
+    },
+    "negative_controls_rejected": 5,
+    "seeded_fuzz_cases": 288,
+    "supported_abis": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64"
+    ],
+    "android_instrumentation_tests_per_environment": 9,
+    "runtime_api_levels": [
+      26,
+      33,
+      35
+    ],
+    "actual_page_sizes": [
+      4096,
+      16384
+    ],
+    "r8_minified_consumer": "PASS",
+    "sanitizers": [
+      "Windows ASan",
+      "Linux ASan",
+      "Linux UBSan"
+    ],
+    "sample_peak_max": 0.9942087531,
+    "true_peak_4x_max": 0.9948416317
+  },
+  "listening": {
+    "required_units_accepted": 8,
+    "total_accepted_units": 11,
+    "distinct_mp3_files": 10,
+    "blinded": false,
+    "adverse_difference_reported": false,
+    "corrected_files_heard": 4,
+    "corrected_files_total": 8
+  },
+  "independent_stable_maven_consumer": {
+    "status": "PASS",
+    "android_api": 26,
+    "minified": true,
+    "debuggable": false,
+    "playback_completed": true,
+    "mp3_sha256": "c6e6b913814a59552c089c196f2179f53a5e41c2c63eaa1b96105399297ff585"
+  },
+  "limitations": [
+    "Applies to the implemented formats and executed corpus/environments.",
+    "No gapless metadata in this version.",
+    "No official ISO certification.",
+    "Targeted labelled listening does not establish universal perceptual transparency or full-corpus LAME equivalence."
+  ]
+}

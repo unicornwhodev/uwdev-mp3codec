@@ -1,0 +1,195 @@
+{
+  "schema": "uwdev.artifact-integrity.v1",
+  "version": "0.2.0",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "bin/uwdev-mp3codec.cjs",
+      "sha256": "a574e4d65cc740aefa868ab4ba7598104474c803434246d11004ed63406f3173"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "18bc7bc10b7705b07f31fc534f7950e53cbb396e015d6fea3f4c90fc46b2a8ba"
+    },
+    {
+      "path": "docs/INTEGRATION.md",
+      "sha256": "5b73b847a4df327a79bd8531604bbff316fa29ad9638d09b5014a91b084c7eb3"
+    },
+    {
+      "path": "lib/index.cjs",
+      "sha256": "19f09dfdcb47b8fce899a605447b020f3ce649fc57aa37e64c557f9f98ea5f98"
+    },
+    {
+      "path": "lib/index.d.ts",
+      "sha256": "9a6fb7c9ede197883a9d899f81c7f877d085601bce5fd19f40470d602dd88e7b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "67d77862c8a6bf5f163392dadc9e46673a653ee90207ee22fe4581ee53d42d06"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0-sources.jar",
+      "sha256": "88440544b06b921afcfe6522da05c8d47c82594515b0a3f5068c2e3dc14f73f9"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0-sources.jar.md5",
+      "sha256": "16635bc8bdc20cd55312879f3f077d0dabad63ca31ba539017bf1f32307a6ff6"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0-sources.jar.sha1",
+      "sha256": "0740dfdd37ff6040c1531d6610ed3308c3e0f762783cf8e7ad41c03496c121d5"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0-sources.jar.sha256",
+      "sha256": "9ae30dadfb6a7cef5ff92edf446ca25450ad73c1ffd03c7d9e1d2d9ac1cbd6fd"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0-sources.jar.sha512",
+      "sha256": "2427d22c39f1a56de20343094ddc7b6f39266dc8797edaec3c4f9bec5155e120"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.aar",
+      "sha256": "dc78b3b583abc95542f3d37487b2749670f75d58edbc26d00af5c342d2f574e4"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.aar.md5",
+      "sha256": "6a3ffc84dbf27c1574c2fff21cf0a1d57bb81c43621579cc47d0114595973331"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.aar.sha1",
+      "sha256": "c0e4fb85d9ebb42d41c9ee834a06fedf75adf8f0520f2c7e444ddd7dde7622e0"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.aar.sha256",
+      "sha256": "e283bb68af7538faf751e5fa333bc9c68e6c3cc5c5404d46bd14f3c9c36d5b1c"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.aar.sha512",
+      "sha256": "f33efd2213f6daa88ff0ec913cfadff3ab04bca8ebc14d7db15b351694379cec"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.module",
+      "sha256": "fccedf732f08ddbe276101d7ca48004f7634946a213a9b5cee681f665f2f2a9a"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.module.md5",
+      "sha256": "a3c270e461b333641eb39530fc33b4df695816f59fbfda4d1dc98b509323fc5d"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.module.sha1",
+      "sha256": "814b30f04c57ee39ffddbddfa93c871b92369bda33b3da9b91485deeb6fcc464"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.module.sha256",
+      "sha256": "b6d7efc09d9f5a898b99612c8b58c77d509ae15cbbdd0b4e47fe88cd6de9c9fc"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.module.sha512",
+      "sha256": "2d4c0c007d1674e1e1775faa01adc164cf9ace1564b531da3b62b18ebab61d4a"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.pom",
+      "sha256": "07b2f93dd0e892d993830938d339b288578d8caab1890f8a056af839f9bf6066"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.pom.md5",
+      "sha256": "8fdfd917355c500753be8b1dcb523956443110e9ab16c01ddde4dc4c430ead6e"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.pom.sha1",
+      "sha256": "86a3fb9f511874f9256935ad1102968cae05e33f455d3bf7ebb573f06b145632"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.pom.sha256",
+      "sha256": "68e51ab8ba7c97a9bb016a13e3f6a6dce4072ed05200b8a796e8618ecd790c63"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/0.2.0/uwdev-mp3codec-0.2.0.pom.sha512",
+      "sha256": "ce09d8708fac4050edf3fa35c92ffb9bf95637ecd4d25e38d40a4b48521af86d"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/maven-metadata.xml",
+      "sha256": "84ca830db4ef5ff354559cb92a9d4c107702a3e53cb2538a15d9b420a732dcd6"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/maven-metadata.xml.md5",
+      "sha256": "aa9206d545849257c68acd1e2651c7aa5dcd04abc9933ace70502e4854d3aadc"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/maven-metadata.xml.sha1",
+      "sha256": "59c65b633871ea603246c59451ee546b2f2dd0ed81405e0b675661fc03903a45"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/maven-metadata.xml.sha256",
+      "sha256": "0d386da34c8642ed4ef635755ce288cb8e24f8bea7fefefee24798cfa2a671e9"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec/maven-metadata.xml.sha512",
+      "sha256": "1581cb79b0a132ebe7af7f70b18bdce1b9a081b9b0dd8fef41422ff1264683a5"
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "56e6330167f3cabc44a219c5a34117914d7731c1e3ccf4e4ec4d29c40435729e"
+    },
+    {
+      "path": "package.json",
+      "sha256": "a716e1da131f6698f32dafb7a8a7248696c418036447adc9d9edcc0d0868d853"
+    },
+    {
+      "path": "README.md",
+      "sha256": "797ca6dcbd3de55b7cd83a3b6210f60fe99b5a7c942a34c599518827fc2d4894"
+    },
+    {
+      "path": "third-party-notices/Android-NDK-r27c-LLVM-NOTICE.txt",
+      "sha256": "f96f763beb66a7ba7a667647fc64c0226ace875e590c831fdd9579ec1c1d91e1"
+    },
+    {
+      "path": "third-party-notices/BUILD-TOOLS-PROVENANCE.md",
+      "sha256": "537c9c5c194060888db2c61087afef34cbbed2f5e46b8600cbce8d6e140e69be"
+    },
+    {
+      "path": "third-party-notices/Gradle-LICENSE.txt",
+      "sha256": "9536d88ea948603d18e232a13f5958d67807cd80828036b082bff171d2cf0703"
+    },
+    {
+      "path": "third-party-notices/Gradle-NOTICE.txt",
+      "sha256": "c2de5fd9adc7ccc4e1382a0e1f38ec6e14f8ca6e28d3c20289fe80353b019aa1"
+    },
+    {
+      "path": "third-party-notices/Kotlin-2.2.21-COPYRIGHT.txt",
+      "sha256": "8f1a1700adb5490604c6094fb137bf73f6c28d3ee554b58f3ff8ef975a79672d"
+    },
+    {
+      "path": "third-party-notices/Kotlin-2.2.21-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "third-party-notices/Kotlin-Boost-BSL-1.0.txt",
+      "sha256": "8d8291caf1cee26d23acf3eb67c9f9a2d58f1c681b16a4fbe8cbfb9e3c0b5a9b"
+    },
+    {
+      "path": "third-party-notices/Kotlin-Guava-Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "third-party-notices/Kotlin-GWT-Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "third-party-notices/KOTLIN-PROVENANCE.md",
+      "sha256": "62fcc538b3c08f5ba50769e5c289c29c626460eb2ee8acfb0a9e0eca2f0bffb5"
+    },
+    {
+      "path": "third-party-notices/Kotlin-ThreeTenBP-BSD-3-Clause.txt",
+      "sha256": "d1bc53b493a3ab387b42717ed5c4b1976a5048996f81154278100bff86d39331"
+    },
+    {
+      "path": "third-party-notices/minimp3-CC0.txt",
+      "sha256": "6a1ee543e5282cd9061881edf462e6fdab181f328da71fc2c9a6950a80e94d01"
+    },
+    {
+      "path": "third-party-notices/pl_mpeg-MIT.txt",
+      "sha256": "b413c5bb523e7ef870a90b5617912ea211514697fa0428242fc4f2c6cc426d28"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: MIT
+.gradle/
+.kotlin/
+**/build/
+**/.cxx/
+node_modules/
+local.properties
+.npmrc
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pem
+*.log
+__pycache__/
+*.pyc
+.idea/
+*.iml
