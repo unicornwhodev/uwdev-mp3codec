@@ -25,8 +25,8 @@ dependencies {
 
 ## npm-assisted Android builds
 
-Install the npm tarball from the public GitHub release shown in the root README,
-then run `npx uwdev-mp3codec maven-path` to locate
+Run `npm install uwdev-mp3codec@0.2.0` (or install the identical tarball from the
+public GitHub release), then run `npx uwdev-mp3codec maven-path` to locate
 its bundled repository. With `node_modules` in your application project root:
 
 ```kotlin

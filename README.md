@@ -65,13 +65,21 @@ after `finish()` and output close succeed. `close()` discards an unfinished expo
 
 ## npm distribution
 
-Install the public release tarball directly; this installation requires no registry credentials.
+Install the public package from npm:
 
 ```sh
-npm install https://github.com/unicornwhodev/uwdev-mp3codec/releases/download/v0.2.0/uwdev-mp3codec-0.2.0.tgz
+npm install uwdev-mp3codec@0.2.0
 npx uwdev-mp3codec verify
 npx uwdev-mp3codec maven-path
 npx uwdev-mp3codec aar-path
+```
+
+The [npm registry](https://www.npmjs.com/package/uwdev-mp3codec) and the
+[GitHub release](https://github.com/unicornwhodev/uwdev-mp3codec/releases/tag/v0.2.0)
+provide the same tarball. Direct installation from the release is also supported:
+
+```sh
+npm install https://github.com/unicornwhodev/uwdev-mp3codec/releases/download/v0.2.0/uwdev-mp3codec-0.2.0.tgz
 ```
 
 The npm package distributes the Android AAR and Maven repository, with small Node.js
