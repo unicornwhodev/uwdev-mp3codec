@@ -1,7 +1,7 @@
 {
   "name": "uwdev-mp3codec",
-  "version": "0.2.0",
-  "description": "Qualified Android PCM-to-MP3 AAR and Maven artifacts with Node.js path and integrity helpers",
+  "version": "0.3.0",
+  "description": "Android PCM/WAV-to-MP3 export SDK, qualified 0.2.0 core, complete demo and Maven artifacts",
   "license": "MIT",
   "author": "Unicorn Who Dev",
   "homepage": "https://github.com/unicornwhodev/uwdev-mp3codec#readme",
@@ -27,7 +27,10 @@
     "CHANGELOG.md",
     "third-party-notices/",
     "docs/",
-    "qualification/"
+    "qualification/",
+    "example/",
+    "demo/",
+    "tools/generate_demo_wav.py"
   ],
   "engines": {
     "node": ">=18"

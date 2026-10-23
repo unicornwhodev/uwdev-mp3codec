@@ -1,0 +1,70 @@
+{
+  "schema": "uwdev.export-validation.v1",
+  "at": "2026-10-23T16:06:27.831364+00:00",
+  "status": "PASS",
+  "checks": {
+    "qualified_core": {
+      "status": "PASS",
+      "sha256": "dc78b3b583abc95542f3d37487b2749670f75d58edbc26d00af5c342d2f574e4",
+      "production_files_unchanged": 21
+    },
+    "no_github_workflows": "PASS",
+    "build": "PASS",
+    "jvm_tests": {
+      "status": "PASS",
+      "tests": 25
+    },
+    "packaging": {
+      "status": "PASS",
+      "native_abis_unchanged": 3,
+      "export_aar_sha256": "f8b09189cee78832f233c38d6518cec2550dd84d13ae1dc2fc9eec406a3f463c",
+      "sample_release_sha256": "ddd9458831cc7f510c2c123b4e66add3caaca70ffd2fe82d2fab0637064d905e"
+    },
+    "android_core_compatibility": {
+      "status": "PASS",
+      "configurations": 24,
+      "mp3_files": 72,
+      "android_decode_to_eos": 24
+    },
+    "ffmpeg_decode_to_eos": {
+      "status": "PASS",
+      "files": 72
+    },
+    "release_r8_sample": {
+      "status": "PASS",
+      "release_r8": true,
+      "wav_export": true,
+      "bitrate_kbps": 256,
+      "playback_to_end": true,
+      "copy_identical": true,
+      "cancellation_cleanup": true,
+      "bundled_sample_export": true
+    },
+    "independent_java_maven_consumer": {
+      "status": "PASS",
+      "java_only_consumer": true,
+      "release_r8": true,
+      "debuggable": false,
+      "input_frames": 6000,
+      "output_bytes": 5376,
+      "bitrate_kbps": 256
+    },
+    "standalone_sdk_demo": {
+      "status": "PASS",
+      "export_version": "0.3.0",
+      "standalone_packaged_project_build": "PASS",
+      "release_r8": true,
+      "test_keep_rules": false,
+      "installed_on_selected_device": true,
+      "bundled_wav_frames": 96000,
+      "bitrate_kbps": 192,
+      "output_bytes": 48960,
+      "export_success": true,
+      "playback_to_end": true,
+      "apk_sha256": "0c24a01d182cfd55a924267a248d40a477375f3876d066b4a9b9e43aa0152fe9"
+    }
+  },
+  "core_version": "0.2.0",
+  "export_version": "0.3.0",
+  "scope": "Export facade 0.3.0; unchanged qualified core 0.2.0. Runtime campaign: OPPO ARM64, Android API 33."
+}

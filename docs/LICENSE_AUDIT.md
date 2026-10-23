@@ -9,6 +9,13 @@ third-party numeric data, Gradle build infrastructure, and compiled runtime
 components with their own notices. The MIT project license does not relicense
 those components.
 
+The optional export facade and the original bundled demonstration WAV/provenance
+are also supplied under the project MIT license. The generator is included in the
+SDK. Demo APK assets are compared byte for byte with the reviewed source assets;
+the WAV has no external recording or sample dependency. AndroidX Test and Error
+Prone annotations are test-only dependencies and are not included in the library
+AARs or the standalone demo APK.
+
 This is a source-specific technical provenance review. Its reproducible result
 is `build/license-audit/report.json`; a release may copy that result to
 `docs/results/license-audit.json`. The report lists each source file's path,

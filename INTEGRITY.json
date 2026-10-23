@@ -1,15 +1,27 @@
 {
   "schema": "uwdev.artifact-integrity.v1",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "algorithm": "SHA-256",
   "files": [
     {
       "path": "bin/uwdev-mp3codec.cjs",
-      "sha256": "a574e4d65cc740aefa868ab4ba7598104474c803434246d11004ed63406f3173"
+      "sha256": "22125c3d2bcff1b344f171ec694f22f670a25b2e900b56f8918b1f2b04110e42"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "18bc7bc10b7705b07f31fc534f7950e53cbb396e015d6fea3f4c90fc46b2a8ba"
+      "sha256": "b7bb579a5bf88260d9416b6f900b98cf2cec69e0531bce282cf727d4d3f7e330"
+    },
+    {
+      "path": "demo/demo.json",
+      "sha256": "d561aef0640a1eaa25afbd574c420dea8821fd513d08111b057e98dcb610994e"
+    },
+    {
+      "path": "demo/demo.wav",
+      "sha256": "0d6c5909c44527cdee55560a6f2b55d3bda870231832737ccd9d3ecb41cfd801"
+    },
+    {
+      "path": "demo/uwdev-mp3codec-demo.apk",
+      "sha256": "0c24a01d182cfd55a924267a248d40a477375f3876d066b4a9b9e43aa0152fe9"
     },
     {
       "path": "docs/API.md",
@@ -28,12 +40,20 @@
       "sha256": "7b9a21ee1df2c2591f098a405c1094479ab2ff5b97a4f0e6d1c37d510d695ea6"
     },
     {
+      "path": "docs/EXPORT.md",
+      "sha256": "ed5f0f44cbca3582d8abcec85976dd265545a5a026819b3881808dff8ba24540"
+    },
+    {
+      "path": "docs/EXPORT_VALIDATION.md",
+      "sha256": "16f7ae7fe9e145a1dbb2575f80519659faf1c3c20f1448b4559d59759d6c8dd6"
+    },
+    {
       "path": "docs/INTEGRATION.md",
-      "sha256": "6182b9f84fe67c0f01047cfc699e202b65ed9f11e8da263448217889de3d1ceb"
+      "sha256": "812f6d3f21dd41dcbff3fbb29f5e2a9c02e6a5ee866064cac2f140d2f187819b"
     },
     {
       "path": "docs/LICENSE_AUDIT.md",
-      "sha256": "df06fc6a11e90ea6f03a2d2462ea9855bd382dc4b1f354a6ec1b1e68dcbe1db3"
+      "sha256": "7f12c42461aff8440bddcca754c603dc8e13ee69de63545aa8f4afafcc5efba9"
     },
     {
       "path": "docs/MIGRATION.md",
@@ -52,12 +72,72 @@
       "sha256": "af52cede4024d92bf1f3e4c60dc0948db4f63a80c98963d572780ff074eb8218"
     },
     {
+      "path": "example/android/app/build.gradle.kts",
+      "sha256": "53559748f30817a879c79d05734ca3527946cc0aa953923fbe3377c716380d8b"
+    },
+    {
+      "path": "example/android/app/src/main/AndroidManifest.xml",
+      "sha256": "3a87e1f57a874daa722d60fae50e40aed219b56b9a9709d0c0b69114996372aa"
+    },
+    {
+      "path": "example/android/app/src/main/assets/demo.json",
+      "sha256": "d561aef0640a1eaa25afbd574c420dea8821fd513d08111b057e98dcb610994e"
+    },
+    {
+      "path": "example/android/app/src/main/assets/demo.wav",
+      "sha256": "0d6c5909c44527cdee55560a6f2b55d3bda870231832737ccd9d3ecb41cfd801"
+    },
+    {
+      "path": "example/android/app/src/main/kotlin/dev/unicornwhodev/mp3codec/sample/ExportActivity.kt",
+      "sha256": "3bb7e40eedd7e19237cf02a6d27603328419f7484fc3bfe50c789826d5cfc4cf"
+    },
+    {
+      "path": "example/android/build.gradle.kts",
+      "sha256": "56dcf8f6dac0ab549a5c9637335b88a95ed65867e021c7b95dd640c514cb99c7"
+    },
+    {
+      "path": "example/android/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f"
+    },
+    {
+      "path": "example/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "1bb6d43ff8af30abb0eaf03fe58f636ed9b37f758a748bf30a9cebd809639c9d"
+    },
+    {
+      "path": "example/android/gradle.properties",
+      "sha256": "d46e805491a923734e69a6a5faa86df24692335a329625afe3ffc2bfe3208231"
+    },
+    {
+      "path": "example/android/gradlew",
+      "sha256": "734b3879d3501dce471cf0522d3bcbafe76873d9fc5129345b67fb43bd15e933"
+    },
+    {
+      "path": "example/android/gradlew.bat",
+      "sha256": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f"
+    },
+    {
+      "path": "example/android/settings.gradle.kts",
+      "sha256": "f265d81b8798c2e64a419ad803bafb6c3a71ac679c8ad84fb08ffdd0b4fca608"
+    },
+    {
+      "path": "example/java/EncodePcm.java",
+      "sha256": "e0ab0014ca58ddb4b258e44e84e506fc84bcdd0c76b41fcdb98843a7fc206d5a"
+    },
+    {
+      "path": "example/kotlin/EncodeWav.kt",
+      "sha256": "041598366b3bba641d4ab53eb4870381bc6e301184eaa5edea4fc08f119850b6"
+    },
+    {
+      "path": "example/README.md",
+      "sha256": "ec9bd64e16171de5afdff75f332ce7e85f1d685caefd3d163164d4ba7ef5bdc1"
+    },
+    {
       "path": "lib/index.cjs",
-      "sha256": "19f09dfdcb47b8fce899a605447b020f3ce649fc57aa37e64c557f9f98ea5f98"
+      "sha256": "00c11b418b376a39c8b4fc612576125ec6031e1548665ef85c83f2111d9c1595"
     },
     {
       "path": "lib/index.d.ts",
-      "sha256": "9a6fb7c9ede197883a9d899f81c7f877d085601bce5fd19f40470d602dd88e7b"
+      "sha256": "72d17a97f5707ea69713ec359dd9948fd6b6396a9f647ea36edab8670c5f8189"
     },
     {
       "path": "LICENSE",
@@ -164,16 +244,120 @@
       "sha256": "1581cb79b0a132ebe7af7f70b18bdce1b9a081b9b0dd8fef41422ff1264683a5"
     },
     {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0-sources.jar",
+      "sha256": "c593b80bce003c95c5b9c886e685ef43e7130a775fa3d79a5f45b25c41406bd4"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0-sources.jar.md5",
+      "sha256": "75001b3b6af0f77c313ac371ee2ad1ba41a926e28cee4729c6c26efe81d99ad0"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0-sources.jar.sha1",
+      "sha256": "6b0af1e444c64bce9fe095ff43bf3f5b333286d4e4cc1844dd0e18a59ae4c57f"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0-sources.jar.sha256",
+      "sha256": "0689e729ff5fd94d5b63397af1694bc705f4a9c92749a10c3a2989aaebf483f4"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0-sources.jar.sha512",
+      "sha256": "f66f2634c3f160f311dddbb8ea7d48ff049ba5fbc229221a31a837ca6670fc65"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.aar",
+      "sha256": "f8b09189cee78832f233c38d6518cec2550dd84d13ae1dc2fc9eec406a3f463c"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.aar.md5",
+      "sha256": "2916d49923e842ac433bdd7a8d53268567c7fff9e85b0e783ab9bfb7bdd9a140"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.aar.sha1",
+      "sha256": "30caff6db39686a6cd35f309b1bf658ed24395b3485db1db227f694e414b6181"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.aar.sha256",
+      "sha256": "d6f582ea37f5521c0ff753109faaadc6b28ea0fdd5290a89e18cb34d59495303"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.aar.sha512",
+      "sha256": "65d9eddcbfdb56a59887aff4e1736345eb6d1d73b591e638561a7a4b6096f28c"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.module",
+      "sha256": "c02fc17dfc873372059640306c02f9b0aa5c59c9d30994b8428d1436443c96c4"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.module.md5",
+      "sha256": "0f6dae66dcfe645e46492f1ae54a60e9e90164c8e2add93b81985de84e2ca6c2"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.module.sha1",
+      "sha256": "eb90743f98a235debf423a5f803fe5cf610b0a1ac076cf7ac1c8f9e943e29d72"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.module.sha256",
+      "sha256": "d7327a717fe40047ea91ac8941454c525a45780fc5020d9f3db8c80eae7005c8"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.module.sha512",
+      "sha256": "08b7d926585d81eb165079374fa642e4e9e18982e9efd071587dd869f2b67182"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.pom",
+      "sha256": "6624432bd5cd84d90aa47bb9aff4d54d80725af141e75765571baa8ba869f0d7"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.pom.md5",
+      "sha256": "ee014867de533db5d58c4af1aff1e7c37f67d3cbfcfc5eda69cd5d42d28f1b6a"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.pom.sha1",
+      "sha256": "1835667a7cb5ea6697397b2e1f0b467b8c946fe3133a772d4b008502d27e14a5"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.pom.sha256",
+      "sha256": "7df50d49955c2298d0e228ab229cc4eecc7fc2f267f2c4e7f68bfa3b81e741fd"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/0.3.0/uwdev-mp3codec-export-0.3.0.pom.sha512",
+      "sha256": "56b80c5f2207ea1d3d3236770508e9c16e7aa6fcf3aae7b1c9f536a376830b5b"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/maven-metadata.xml",
+      "sha256": "ee04ddf373dfa0ca64472a3571663af975bd45cbc9a121c13a37163b93b297ba"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/maven-metadata.xml.md5",
+      "sha256": "a248ae567695119a734312b8268c9855476465f1ca4cd8df5c9b2e92acddf392"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/maven-metadata.xml.sha1",
+      "sha256": "6861c48e60825adbe60aa78f42802d944dc243bad12a12489f1c4ecfafc3d54a"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/maven-metadata.xml.sha256",
+      "sha256": "8234c42e8cdc6570ecf87df4a81e12ac67774dda1744b0e394dfda15e25c57bd"
+    },
+    {
+      "path": "maven/io/github/unicornwhodev/uwdev-mp3codec-export/maven-metadata.xml.sha512",
+      "sha256": "b23cf0666128750f50ca1a138d8b29e34e6746fc807d1e3d538b9cfe3a789911"
+    },
+    {
       "path": "NOTICE.md",
       "sha256": "56e6330167f3cabc44a219c5a34117914d7731c1e3ccf4e4ec4d29c40435729e"
     },
     {
       "path": "package.json",
-      "sha256": "ad6585e44fd39604019e119d5e159991f8f70610d24ae8b08946e86aab60cbff"
+      "sha256": "1dc6ff25d14fb448c49192992c86ec45e853363696365a27685e6743214fe137"
     },
     {
       "path": "qualification/aar-verification.json",
       "sha256": "e6bc307a84f501c6aa7b6f0b55a08e5064581d4ecae9038835fd65a7c3d443db"
+    },
+    {
+      "path": "qualification/export-0.3.0.json",
+      "sha256": "810ce4b34e3151b7ca39f1fc2f3ed09a1ebd44159377f5bdba5f425eaf04b46b"
     },
     {
       "path": "qualification/production-source-sha256.json",
@@ -185,7 +369,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "5fc2357135b38a54d57d8b7a8c613f6d2bee43931e481cab52b845458b011903"
+      "sha256": "0c4ba76c9b823049a036e5eec48b00c65e77ed4d1bcdc00141f1c617dbb05211"
     },
     {
       "path": "third-party-notices/Android-NDK-r27c-LLVM-NOTICE.txt",
@@ -238,6 +422,10 @@
     {
       "path": "third-party-notices/pl_mpeg-MIT.txt",
       "sha256": "b413c5bb523e7ef870a90b5617912ea211514697fa0428242fc4f2c6cc426d28"
+    },
+    {
+      "path": "tools/generate_demo_wav.py",
+      "sha256": "f53564f8a1fdf479d9d95a4e8ecdd625d606607fef0bf6c5c678b7226ec43894"
     }
   ]
 }

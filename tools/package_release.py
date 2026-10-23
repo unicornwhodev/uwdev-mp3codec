@@ -9,16 +9,18 @@ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def integrity():
     files=[ROOT/n for n in ('package.json','README.md','CHANGELOG.md','LICENSE','NOTICE.md')]
-    for name in ('lib','bin','maven','third-party-notices','docs','qualification'):
+    files.append(ROOT/'tools/generate_demo_wav.py')
+    for name in ('lib','bin','maven','third-party-notices','docs','qualification','example','demo'):
         files.extend(p for p in (ROOT/name).rglob('*') if p.is_file())
     result={'schema':'uwdev.artifact-integrity.v1','version':VERSION,'algorithm':'SHA-256',
             'files':[{'path':p.relative_to(ROOT).as_posix(),'sha256':sha(p)} for p in sorted(files)]}
     (ROOT/'INTEGRITY.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
 
 def package():
-    output=ROOT/'build/release';output.mkdir(parents=True,exist_ok=True)
-    version_dir=ROOT/'maven/io/github/unicornwhodev/uwdev-mp3codec'/VERSION
-    for name in (f'uwdev-mp3codec-{VERSION}.aar',f'uwdev-mp3codec-{VERSION}-sources.jar'):
+    output=ROOT/f'build/release-{VERSION}';output.mkdir(parents=True,exist_ok=True)
+    core_version='0.2.0'
+    version_dir=ROOT/'maven/io/github/unicornwhodev/uwdev-mp3codec'/core_version
+    for name in (f'uwdev-mp3codec-{core_version}.aar',f'uwdev-mp3codec-{core_version}-sources.jar'):
         shutil.copyfile(version_dir/name,output/name)
     with zipfile.ZipFile(output/f'uwdev-mp3codec-{VERSION}-maven.zip','w',zipfile.ZIP_DEFLATED) as archive:
         for path in sorted((ROOT/'maven').rglob('*')):

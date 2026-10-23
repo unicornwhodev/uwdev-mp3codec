@@ -1,5 +1,9 @@
 # Android integration
 
+For the optional PCM/WAV facade, background export, progress, cancellation and a
+complete document-picker sample, see [EXPORT.md](EXPORT.md). The stable
+`0.3.0` facade is layered over the unchanged qualified `0.2.0` core.
+
 ## Maven repository
 
 Use `io.github.unicornwhodev:uwdev-mp3codec:0.2.0` from the public repository shown
@@ -25,7 +29,7 @@ dependencies {
 
 ## npm-assisted Android builds
 
-Run `npm install uwdev-mp3codec@0.2.0` (or install the identical tarball from the
+Run `npm install uwdev-mp3codec@0.3.0` (or install the identical tarball from the
 public GitHub release), then run `npx uwdev-mp3codec maven-path` to locate
 its bundled repository. With `node_modules` in your application project root:
 
