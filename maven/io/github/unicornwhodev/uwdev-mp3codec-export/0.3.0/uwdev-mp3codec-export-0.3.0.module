@@ -98,11 +98,11 @@
         {
           "name": "uwdev-mp3codec-export-0.3.0-sources.jar",
           "url": "uwdev-mp3codec-export-0.3.0-sources.jar",
-          "size": 10074,
-          "sha512": "be0081d9ffd533a1832e5ee11e3304a0c4a84db28a7fe0eb8a8f971d03e397eed521c55085789d97899bb05485b806566f01b5dd308f308887fc3487d03c60da",
-          "sha256": "c593b80bce003c95c5b9c886e685ef43e7130a775fa3d79a5f45b25c41406bd4",
-          "sha1": "355df135815089b4fd5ff141f9ac3309853194dc",
-          "md5": "c4a3d52f94b7603530d37a5a65dba55c"
+          "size": 12301,
+          "sha512": "1c1bd71305e6903040a899bcfdbb6cf8ae03de55b4aaadb10e7d7d022126f83910343afd34bc7470e6dcd9e417bf3550c926582d6caedb254466d342a84a6124",
+          "sha256": "7b57c4a685614af2dc699dad75975da847d8e9c0dad9562d31c3b22e4bfd6819",
+          "sha1": "90f59f4f7733f2affab2eacdd3597b70708d96a4",
+          "md5": "7eaa38db50b551c8e0e6cb45f298c7a7"
         }
       ]
     }

@@ -29,6 +29,9 @@ def main():
     stage = ROOT/'encoder-export/build/staging-repository'
     version_dir = stage/MODULE/VERSION
     assert sha(version_dir/f'uwdev-mp3codec-export-{VERSION}.aar') == sha(ROOT/'encoder-export/build/outputs/aar/encoder-export-release.aar')
+    with zipfile.ZipFile(version_dir/f'uwdev-mp3codec-export-{VERSION}-sources.jar') as sources:
+        for name in ('LICENSE', 'NOTICE.md'):
+            assert sources.read('META-INF/uwdev-mp3codec-export/'+name) == (ROOT/name).read_bytes()
     # Publish only this stable version. Never carry local SNAPSHOT metadata forward.
     destination = ROOT/'maven'/MODULE/VERSION
     destination.mkdir(parents=True, exist_ok=True)

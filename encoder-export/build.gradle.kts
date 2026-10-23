@@ -61,7 +61,7 @@ publishing {
 
 // Keep the permission and attribution text with the standalone sources artifact.
 afterEvaluate {
-    tasks.named<org.gradle.jvm.tasks.Jar>("releaseSourcesJar") {
+    tasks.named<org.gradle.api.tasks.bundling.Zip>("sourceReleaseJar") {
         from(rootProject.file("LICENSE")) { into("META-INF/uwdev-mp3codec-export") }
         from(rootProject.file("NOTICE.md")) { into("META-INF/uwdev-mp3codec-export") }
     }
